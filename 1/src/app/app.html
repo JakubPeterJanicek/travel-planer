@@ -1,0 +1,31 @@
+<section class="hero">
+  <div class="hero-content">
+    <h1>Plan Your Perfect Trip</h1>
+    <p>Discover amazing places and create your ideal itinerary</p>
+
+    <div class="hero-buttons">
+      <button class="btn primary">Start Planning</button>
+      <button class="btn secondary">Watch Video</button>
+    </div>
+  </div>
+</section>
+
+<section class="how-it-works">
+  <h2>How It Works</h2>
+
+  <div class="steps">
+    @for (step of steps(); track step.title) {
+      <div class="step">
+        <div class="icon">{{ step.icon }}</div>
+        <h3>{{ step.title }}</h3>
+        <p>{{ step.text }}</p>
+      </div>
+    }
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Get Ready for Your Next Adventure</h2>
+  <p>Join us and start planning your perfect getaway today</p>
+  <button class="btn primary">Sign Up Now</button>
+</section>
