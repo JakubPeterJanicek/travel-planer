@@ -33,111 +33,83 @@ import { RouterLink } from '@angular/router';
         }
       </div>
     </section>
-
-    <section class="cta">
-      <h2>Get Ready for Your Next Adventure</h2>
-      <p>Join us and start planning your perfect getaway today</p>
-      <button class="btn primary">Sign Up Now</button>
-    </section>
   `,
-  styles: [
-    `
-      .hero {
-  height: 90vh;
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e')
-      center / cover no-repeat;
-  display: flex;
-  align-items: center;
-  padding: 0 4rem;
-  color: white;
-}
+  styles: [`
+    .hero {
+      height: 90vh;
+      background: linear-gradient(
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0.4)
+        ),
+        url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e')
+          center / cover no-repeat;
+      display: flex;
+      align-items: center;
+      padding: 0 4rem;
+      color: white;
+    }
 
-.hero-content {
-  max-width: 600px;
-}
+    .hero-content {
+      max-width: 600px;
+    }
 
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
 
-.hero-buttons {
-  display: flex;
-  gap: 1rem;
-  margin-top: 2rem;
-}
+    .hero-buttons {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
 
-.btn {
-  padding: 0.8rem 1.6rem;
-  border-radius: 6px;
-  border: none;
-  cursor: pointer;
-  font-size: 1rem;
-}
+    .btn {
+      padding: 0.8rem 1.6rem;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+    }
 
-.primary {
-  background: #ff7a18;
-  color: white;
-}
+    .primary {
+      background: #ff7a18;
+      color: white;
+    }
 
-.secondary {
-  background: white;
-  color: #333;
-}
+    .secondary {
+      background: white;
+      color: #333;
+    }
 
-.how-it-works {
-  padding: 4rem 2rem;
-  text-align: center;
-}
+    .how-it-works {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
 
-.steps {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 2rem;
-  margin-top: 3rem;
-}
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
 
-.step {
-  background: #f8f9fa;
-  padding: 2rem;
-  border-radius: 12px;
-}
+    .step {
+      background: #f8f9fa;
+      padding: 2rem;
+      border-radius: 12px;
+    }
 
-.icon {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.cta {
-  background: linear-gradient(to right, #2193b0, #6dd5ed);
-  color: white;
-  text-align: center;
-  padding: 4rem 2rem;
-}
- 
-    `,
-  ],
+    .icon {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+  `],
 })
 export class HomePage {
   steps = signal([
-    {
-      title: 'Choose a Destination',
-      text: 'Pick your dream location',
-      icon: '📍',
-    },
-    {
-      title: 'Plan Your Trip',
-      text: 'Create your custom itinerary',
-      icon: '🗺️',
-    },
-    {
-      title: 'Travel & Enjoy',
-      text: 'Have an unforgettable adventure',
-      icon: '✈️',
-    },
+    { title: 'Choose a Destination', text: 'Pick your dream location', icon: '📍' },
+    { title: 'Plan Your Trip', text: 'Create your custom itinerary', icon: '🗺️' },
+    { title: 'Travel & Enjoy', text: 'Have an unforgettable adventure', icon: '✈️' },
   ]);
 }
