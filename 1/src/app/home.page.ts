@@ -8,7 +8,7 @@ import { RouterLink } from '@angular/router';
   template: `
     <section class="hero">
       <div class="hero-content">
-        <h1>Plan Your Perfect Trip</h1>
+        <h1>Plan Your Vacation</h1>
         <p>Discover amazing places and create your ideal itinerary</p>
 
         <div class="hero-buttons">
