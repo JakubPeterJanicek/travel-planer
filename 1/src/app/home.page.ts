@@ -33,6 +33,12 @@ import { RouterLink } from '@angular/router';
         }
       </div>
     </section>
+
+    <section class="cta">
+      <h2>Get Ready for Your Next Adventure</h2>
+      <p>Join us and start planning your perfect getaway today</p>
+      <button class="btn primary">Sign Up Now</button>
+    </section>
   `,
   styles: [`
     .hero {
@@ -104,6 +110,13 @@ import { RouterLink } from '@angular/router';
       font-size: 2.5rem;
       margin-bottom: 1rem;
     }
+
+    .cta {
+        padding: 80px 40px;
+        text-align: center;
+        background: #222;
+        color: white;
+      }
   `],
 })
 export class HomePage {
