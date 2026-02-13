@@ -3,10 +3,12 @@ import { HomePage } from './home.page';
 import { ChooseDestinationPage } from './choose-destination.page';
 import { PlanTripPage } from './plan-trip.page';
 import { TransportPage } from './transport.page';
+import { PaymentPage } from './payment.page';
 
 export const routes: Routes = [
   { path: '', component: HomePage },
   { path: 'choose-destination', component: ChooseDestinationPage },
   { path: 'plan-trip', component: PlanTripPage },
   { path: 'transport', component: TransportPage },
+  { path: 'payment', component: PaymentPage },
 ];
