@@ -8,7 +8,7 @@ import { TripService } from './trip.service';
   imports: [RouterLink],
   template: `
     <section class="page">
-      <h2>4. Payment</h2>
+      <h2>Payment</h2>
 
       <form class="payment-form">
         <input type="text" placeholder="Name on card" />

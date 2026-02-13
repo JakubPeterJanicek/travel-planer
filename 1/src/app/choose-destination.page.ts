@@ -9,7 +9,7 @@ import { FormsModule } from '@angular/forms';
   imports: [RouterLink, FormsModule],
   template: `
     <section class="page">
-      <h2>1. Choose a Destination</h2>
+      <h2>Choose a Destination</h2>
 
       <div class="search-box">
         <input

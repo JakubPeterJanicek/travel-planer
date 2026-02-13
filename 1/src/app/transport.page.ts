@@ -7,7 +7,7 @@ import { RouterLink } from '@angular/router';
   imports: [RouterLink],
   template: `
     <section class="page">
-      <h2>Doprava</h2>
+      <h2>Transport</h2>
 
       <ul>
         <li>✈ Lietadlo</li>
